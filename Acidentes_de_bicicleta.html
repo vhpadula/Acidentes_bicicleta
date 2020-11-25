@@ -1,0 +1,1902 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7477f69bbbcd4cdc9242a9479dcfd58e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://leaflet.github.io/Leaflet.heat/dist/leaflet-heat.js"></script>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_7477f69bbbcd4cdc9242a9479dcfd58e" ></div>
+        
+</body>
+<script>    
+    
+            var map_7477f69bbbcd4cdc9242a9479dcfd58e = L.map(
+                "map_7477f69bbbcd4cdc9242a9479dcfd58e",
+                {
+                    center: [-23.55, -46.65],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_7477f69bbbcd4cdc9242a9479dcfd58e);
+
+            
+
+        
+    
+            var tile_layer_3564e1aec4354ef8925bb9b14c6efd64 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7477f69bbbcd4cdc9242a9479dcfd58e);
+        
+    
+            var feature_group_6c8402cebacf47e7af6954b17cbff380 = L.featureGroup(
+                {}
+            ).addTo(map_7477f69bbbcd4cdc9242a9479dcfd58e);
+        
+    
+            var marker_4166ee8c5d064e22b4ba178e6233fa53 = L.marker(
+                [-23.28558, -46.37348],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_d174b43904674964a2380c908e23f941 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ade205713fc422ba75f202e43083a74 = $(`<div id="html_2ade205713fc422ba75f202e43083a74" style="width: 100.0%; height: 100.0%;">Mandaqui Acidentes:60</div>`)[0];
+            popup_d174b43904674964a2380c908e23f941.setContent(html_2ade205713fc422ba75f202e43083a74);
+        
+
+        marker_4166ee8c5d064e22b4ba178e6233fa53.bindPopup(popup_d174b43904674964a2380c908e23f941)
+        ;
+
+        
+    
+    
+            var marker_08ebfc4fa2ac43c5bafdfdbf328f1e1b = L.marker(
+                [-23.536260000000002, -46.57569],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_a5faa6272cf74f8eb6d450328d8eadb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b89f7853b829471582a7161b7bf71fab = $(`<div id="html_b89f7853b829471582a7161b7bf71fab" style="width: 100.0%; height: 100.0%;">Tatuape Acidentes:41</div>`)[0];
+            popup_a5faa6272cf74f8eb6d450328d8eadb1.setContent(html_b89f7853b829471582a7161b7bf71fab);
+        
+
+        marker_08ebfc4fa2ac43c5bafdfdbf328f1e1b.bindPopup(popup_a5faa6272cf74f8eb6d450328d8eadb1)
+        ;
+
+        
+    
+    
+            var marker_3ca68c37ce684cf4a54a1fd8cb2875c3 = L.marker(
+                [-23.480446, -46.420296],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_5601da0866ca46f99b442a16dda569bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca99a91d767844068f7f0831c79d2120 = $(`<div id="html_ca99a91d767844068f7f0831c79d2120" style="width: 100.0%; height: 100.0%;">Jardim Helena Acidentes:69</div>`)[0];
+            popup_5601da0866ca46f99b442a16dda569bf.setContent(html_ca99a91d767844068f7f0831c79d2120);
+        
+
+        marker_3ca68c37ce684cf4a54a1fd8cb2875c3.bindPopup(popup_5601da0866ca46f99b442a16dda569bf)
+        ;
+
+        
+    
+    
+            var marker_fc27613284ec4fc5a5bf55e3e8a7008e = L.marker(
+                [-23.5375, -46.6578],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_e3bff17bdf2f4cc798676d192493ca01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77d73341af61414ab354284ceb61074b = $(`<div id="html_77d73341af61414ab354284ceb61074b" style="width: 100.0%; height: 100.0%;">Santa Cecilia Acidentes:58</div>`)[0];
+            popup_e3bff17bdf2f4cc798676d192493ca01.setContent(html_77d73341af61414ab354284ceb61074b);
+        
+
+        marker_fc27613284ec4fc5a5bf55e3e8a7008e.bindPopup(popup_e3bff17bdf2f4cc798676d192493ca01)
+        ;
+
+        
+    
+    
+            var marker_dfebab70f64e4d93b3edadd575b59ddd = L.marker(
+                [-23.4616, -46.6608],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_3d1b2f07341447798cec54ac4dee0931 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1622612eab954420b4368ce4f78fb14a = $(`<div id="html_1622612eab954420b4368ce4f78fb14a" style="width: 100.0%; height: 100.0%;">Cachoeirinha Acidentes:61</div>`)[0];
+            popup_3d1b2f07341447798cec54ac4dee0931.setContent(html_1622612eab954420b4368ce4f78fb14a);
+        
+
+        marker_dfebab70f64e4d93b3edadd575b59ddd.bindPopup(popup_3d1b2f07341447798cec54ac4dee0931)
+        ;
+
+        
+    
+    
+            var marker_0dd9407eb2544dc9a4e095788c804cce = L.marker(
+                [-23.602583, -46.671416],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_b00d6a1774b14911b6dc03d0b375a682 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97b67273ff5441d1bcccaf0b64ec3069 = $(`<div id="html_97b67273ff5441d1bcccaf0b64ec3069" style="width: 100.0%; height: 100.0%;">Moema Acidentes:52</div>`)[0];
+            popup_b00d6a1774b14911b6dc03d0b375a682.setContent(html_97b67273ff5441d1bcccaf0b64ec3069);
+        
+
+        marker_0dd9407eb2544dc9a4e095788c804cce.bindPopup(popup_b00d6a1774b14911b6dc03d0b375a682)
+        ;
+
+        
+    
+    
+            var marker_ea3120b8bbef4b209a9276c2c8624367 = L.marker(
+                [-23.48, -46.7411],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_4212eea5564b48ef93c092c64ab1cf70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3eed532ca2994df89d82fb3bce83beda = $(`<div id="html_3eed532ca2994df89d82fb3bce83beda" style="width: 100.0%; height: 100.0%;">Pirituba Acidentes:49</div>`)[0];
+            popup_4212eea5564b48ef93c092c64ab1cf70.setContent(html_3eed532ca2994df89d82fb3bce83beda);
+        
+
+        marker_ea3120b8bbef4b209a9276c2c8624367.bindPopup(popup_4212eea5564b48ef93c092c64ab1cf70)
+        ;
+
+        
+    
+    
+            var marker_d0eed291ef764a6383208149ccf75707 = L.marker(
+                [-23.4386, -46.7934],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_90e16d7b45524f27a7ee239e51341958 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7fbee3ea97a452bbff7d01fd8fead85 = $(`<div id="html_e7fbee3ea97a452bbff7d01fd8fead85" style="width: 100.0%; height: 100.0%;">Anhanguera Acidentes:12</div>`)[0];
+            popup_90e16d7b45524f27a7ee239e51341958.setContent(html_e7fbee3ea97a452bbff7d01fd8fead85);
+        
+
+        marker_d0eed291ef764a6383208149ccf75707.bindPopup(popup_90e16d7b45524f27a7ee239e51341958)
+        ;
+
+        
+    
+    
+            var marker_84a381af3d5240ad9058e6868bea4d29 = L.marker(
+                [-23.6002, -46.7164],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_6a054c65b871472298cb6f5a88062f24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f009d3ecf3d4ea08dd6b67fc9ea57c1 = $(`<div id="html_4f009d3ecf3d4ea08dd6b67fc9ea57c1" style="width: 100.0%; height: 100.0%;">Morumbi Acidentes:30</div>`)[0];
+            popup_6a054c65b871472298cb6f5a88062f24.setContent(html_4f009d3ecf3d4ea08dd6b67fc9ea57c1);
+        
+
+        marker_84a381af3d5240ad9058e6868bea4d29.bindPopup(popup_6a054c65b871472298cb6f5a88062f24)
+        ;
+
+        
+    
+    
+            var marker_a86931b09b204c50bd96a66923e25d9a = L.marker(
+                [-23.5574, -46.6453],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_de5e5bb8977943f2af1bc361f3cdd4d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f9ce2fed86842769eba36d59a91908b = $(`<div id="html_9f9ce2fed86842769eba36d59a91908b" style="width: 100.0%; height: 100.0%;">Bela Vista Acidentes:44</div>`)[0];
+            popup_de5e5bb8977943f2af1bc361f3cdd4d4.setContent(html_9f9ce2fed86842769eba36d59a91908b);
+        
+
+        marker_a86931b09b204c50bd96a66923e25d9a.bindPopup(popup_de5e5bb8977943f2af1bc361f3cdd4d4)
+        ;
+
+        
+    
+    
+            var marker_4f097c8be1044775abbeb333064734dd = L.marker(
+                [-23.5247, -46.4272],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_f51cdb6a5c684ca5b5cb44578c6ed388 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0054bca91654e37bf8eaed05cf6d9ab = $(`<div id="html_c0054bca91654e37bf8eaed05cf6d9ab" style="width: 100.0%; height: 100.0%;">Lajeado Acidentes:36</div>`)[0];
+            popup_f51cdb6a5c684ca5b5cb44578c6ed388.setContent(html_c0054bca91654e37bf8eaed05cf6d9ab);
+        
+
+        marker_4f097c8be1044775abbeb333064734dd.bindPopup(popup_f51cdb6a5c684ca5b5cb44578c6ed388)
+        ;
+
+        
+    
+    
+            var marker_549db75d7c704d7ba0983804cd9b3e40 = L.marker(
+                [-23.5472, -46.4701],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_54d32667f7e84da486ad7c6a1a53523a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3bb5ec19bef947789c2708ac8f714f23 = $(`<div id="html_3bb5ec19bef947789c2708ac8f714f23" style="width: 100.0%; height: 100.0%;">Artum Alvim Acidentes:27</div>`)[0];
+            popup_54d32667f7e84da486ad7c6a1a53523a.setContent(html_3bb5ec19bef947789c2708ac8f714f23);
+        
+
+        marker_549db75d7c704d7ba0983804cd9b3e40.bindPopup(popup_54d32667f7e84da486ad7c6a1a53523a)
+        ;
+
+        
+    
+    
+            var marker_3738e769b3d740dd9d3fc264cea17275 = L.marker(
+                [-23.5018, -46.4517],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_ce1bbf050f074f27b32d615c517f02ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d72791b1003b4bf2b616d84e8972a3d4 = $(`<div id="html_d72791b1003b4bf2b616d84e8972a3d4" style="width: 100.0%; height: 100.0%;">Vila Jacui Acidentes:53</div>`)[0];
+            popup_ce1bbf050f074f27b32d615c517f02ad.setContent(html_d72791b1003b4bf2b616d84e8972a3d4);
+        
+
+        marker_3738e769b3d740dd9d3fc264cea17275.bindPopup(popup_ce1bbf050f074f27b32d615c517f02ad)
+        ;
+
+        
+    
+    
+            var marker_8882303f41aa44568776eba69aa20de4 = L.marker(
+                [-23.5854, -46.6379],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_58d1d3825d4f47f7893fcf7a6ee198aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39dd83c4950d4673ba8a0273050cb381 = $(`<div id="html_39dd83c4950d4673ba8a0273050cb381" style="width: 100.0%; height: 100.0%;">Vila Mariana Acidentes:73</div>`)[0];
+            popup_58d1d3825d4f47f7893fcf7a6ee198aa.setContent(html_39dd83c4950d4673ba8a0273050cb381);
+        
+
+        marker_8882303f41aa44568776eba69aa20de4.bindPopup(popup_58d1d3825d4f47f7893fcf7a6ee198aa)
+        ;
+
+        
+    
+    
+            var marker_f46ec13cb85140cb9034f22e3549b110 = L.marker(
+                [-23.544, -46.6409],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_9e687b8ab67f42349f75853e2310f857 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2ca8794255e4fe785e02aeb3860017a = $(`<div id="html_f2ca8794255e4fe785e02aeb3860017a" style="width: 100.0%; height: 100.0%;">Republica Acidentes:82</div>`)[0];
+            popup_9e687b8ab67f42349f75853e2310f857.setContent(html_f2ca8794255e4fe785e02aeb3860017a);
+        
+
+        marker_f46ec13cb85140cb9034f22e3549b110.bindPopup(popup_9e687b8ab67f42349f75853e2310f857)
+        ;
+
+        
+    
+    
+            var marker_991b9c49bc074d7a9c31bf2e04cd10c2 = L.marker(
+                [-23.5899, -46.6036],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_43ed64261d144087ab206ecbe508461f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3fc6187b1b84122a9e2c47931718369 = $(`<div id="html_a3fc6187b1b84122a9e2c47931718369" style="width: 100.0%; height: 100.0%;">Ipiranga Acidentes:48</div>`)[0];
+            popup_43ed64261d144087ab206ecbe508461f.setContent(html_a3fc6187b1b84122a9e2c47931718369);
+        
+
+        marker_991b9c49bc074d7a9c31bf2e04cd10c2.bindPopup(popup_43ed64261d144087ab206ecbe508461f)
+        ;
+
+        
+    
+    
+            var marker_93bc47f2ea4746b7b71a014a453bd521 = L.marker(
+                [-23.5029, -46.6976],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_99d0e5d448f045228f0a2239e76efb08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b533ef773d647199e54385bf8498531 = $(`<div id="html_6b533ef773d647199e54385bf8498531" style="width: 100.0%; height: 100.0%;">Freguesia do o Acidentes:56</div>`)[0];
+            popup_99d0e5d448f045228f0a2239e76efb08.setContent(html_6b533ef773d647199e54385bf8498531);
+        
+
+        marker_93bc47f2ea4746b7b71a014a453bd521.bindPopup(popup_99d0e5d448f045228f0a2239e76efb08)
+        ;
+
+        
+    
+    
+            var marker_9b59e454b07c4ecca226f1dd9c605864 = L.marker(
+                [-23.5616, -46.6843],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_7cd6b698e366433fab9fe027b3744526 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c96e3056b8e24a72841cee57b6fca7ba = $(`<div id="html_c96e3056b8e24a72841cee57b6fca7ba" style="width: 100.0%; height: 100.0%;">Pinheiros Acidentes:101</div>`)[0];
+            popup_7cd6b698e366433fab9fe027b3744526.setContent(html_c96e3056b8e24a72841cee57b6fca7ba);
+        
+
+        marker_9b59e454b07c4ecca226f1dd9c605864.bindPopup(popup_7cd6b698e366433fab9fe027b3744526)
+        ;
+
+        
+    
+    
+            var marker_eb506ff40dd34c9585679cece0395efd = L.marker(
+                [-23.5642, -46.7197],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_2929475dfd7749968b0f6aef3ef116e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f717aaa2871f41459886854282140a06 = $(`<div id="html_f717aaa2871f41459886854282140a06" style="width: 100.0%; height: 100.0%;">Butanta Acidentes:64</div>`)[0];
+            popup_2929475dfd7749968b0f6aef3ef116e8.setContent(html_f717aaa2871f41459886854282140a06);
+        
+
+        marker_eb506ff40dd34c9585679cece0395efd.bindPopup(popup_2929475dfd7749968b0f6aef3ef116e8)
+        ;
+
+        
+    
+    
+            var marker_6082cad205564da78aa1829dd6230885 = L.marker(
+                [-23.6492, -46.6988],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_1c289598dfa74649975ce1c1ee02f6c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_435269a232f845edb0da876175ac70e3 = $(`<div id="html_435269a232f845edb0da876175ac70e3" style="width: 100.0%; height: 100.0%;">Santo Amaro Acidentes:46</div>`)[0];
+            popup_1c289598dfa74649975ce1c1ee02f6c0.setContent(html_435269a232f845edb0da876175ac70e3);
+        
+
+        marker_6082cad205564da78aa1829dd6230885.bindPopup(popup_1c289598dfa74649975ce1c1ee02f6c0)
+        ;
+
+        
+    
+    
+            var marker_50741edd29c54aba967ef32a288fcbee = L.marker(
+                [-23.6011, -46.4797],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_ea99f720b8234d298c5a08aa74f84f29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24edb14f4cd54bf29e183d21bd96e231 = $(`<div id="html_24edb14f4cd54bf29e183d21bd96e231" style="width: 100.0%; height: 100.0%;">Sao Mateus Acidentes:30</div>`)[0];
+            popup_ea99f720b8234d298c5a08aa74f84f29.setContent(html_24edb14f4cd54bf29e183d21bd96e231);
+        
+
+        marker_50741edd29c54aba967ef32a288fcbee.bindPopup(popup_ea99f720b8234d298c5a08aa74f84f29)
+        ;
+
+        
+    
+    
+            var marker_e82d1a719ec14ce8bab80047af603170 = L.marker(
+                [-23.508, -46.4163],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_446e9c0fe0074b65ab60981f7bd53b68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1d83b32acc340809561d0248d556afe = $(`<div id="html_c1d83b32acc340809561d0248d556afe" style="width: 100.0%; height: 100.0%;">Vila Curuca Acidentes:49</div>`)[0];
+            popup_446e9c0fe0074b65ab60981f7bd53b68.setContent(html_c1d83b32acc340809561d0248d556afe);
+        
+
+        marker_e82d1a719ec14ce8bab80047af603170.bindPopup(popup_446e9c0fe0074b65ab60981f7bd53b68)
+        ;
+
+        
+    
+    
+            var marker_fb56f4ce28fa46398f88a996d49310c6 = L.marker(
+                [-23.4698, -46.6889],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_1a66a3984fa34adea04e56383efdc2a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ca0a3e2e36b405ab044e4a6ca23853d = $(`<div id="html_2ca0a3e2e36b405ab044e4a6ca23853d" style="width: 100.0%; height: 100.0%;">Brasilandia Acidentes:73</div>`)[0];
+            popup_1a66a3984fa34adea04e56383efdc2a2.setContent(html_2ca0a3e2e36b405ab044e4a6ca23853d);
+        
+
+        marker_fb56f4ce28fa46398f88a996d49310c6.bindPopup(popup_1a66a3984fa34adea04e56383efdc2a2)
+        ;
+
+        
+    
+    
+            var marker_492f812a91474e09a81919edb17fb71e = L.marker(
+                [-23.6685, -46.7694],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_898ff7d3cf924bc29a92112420782e71 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e619af95beb54edb960be5be73161074 = $(`<div id="html_e619af95beb54edb960be5be73161074" style="width: 100.0%; height: 100.0%;">Capao Redondo Acidentes:53</div>`)[0];
+            popup_898ff7d3cf924bc29a92112420782e71.setContent(html_e619af95beb54edb960be5be73161074);
+        
+
+        marker_492f812a91474e09a81919edb17fb71e.bindPopup(popup_898ff7d3cf924bc29a92112420782e71)
+        ;
+
+        
+    
+    
+            var marker_14be1fbef3e949cfb0ad8fcd6cf185ee = L.marker(
+                [-23.5501, -46.6513],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_424bab4eae674be1ba290cfafe59f9fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20429128b0f345acabce8117cb59324b = $(`<div id="html_20429128b0f345acabce8117cb59324b" style="width: 100.0%; height: 100.0%;">Consolacao Acidentes:63</div>`)[0];
+            popup_424bab4eae674be1ba290cfafe59f9fc.setContent(html_20429128b0f345acabce8117cb59324b);
+        
+
+        marker_14be1fbef3e949cfb0ad8fcd6cf185ee.bindPopup(popup_424bab4eae674be1ba290cfafe59f9fc)
+        ;
+
+        
+    
+    
+            var marker_31fd361b75ec4f1f833c0694d4594e1c = L.marker(
+                [-23.5235, -46.6382],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_7dddf31518d74a95959e117b9948d3f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5987b2e943fa4ab6afa8a16cf16517fd = $(`<div id="html_5987b2e943fa4ab6afa8a16cf16517fd" style="width: 100.0%; height: 100.0%;">Bom Retiro Acidentes:62</div>`)[0];
+            popup_7dddf31518d74a95959e117b9948d3f2.setContent(html_5987b2e943fa4ab6afa8a16cf16517fd);
+        
+
+        marker_31fd361b75ec4f1f833c0694d4594e1c.bindPopup(popup_7dddf31518d74a95959e117b9948d3f2)
+        ;
+
+        
+    
+    
+            var marker_5bd4627e54a945bb84137a0cddc57a9f = L.marker(
+                [-23.467, -46.5717],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_8c5eeb1c007b4b9aa936065053da7628 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b52341d9de84fb79c2e1d32f90f543d = $(`<div id="html_0b52341d9de84fb79c2e1d32f90f543d" style="width: 100.0%; height: 100.0%;">Jacana Acidentes:73</div>`)[0];
+            popup_8c5eeb1c007b4b9aa936065053da7628.setContent(html_0b52341d9de84fb79c2e1d32f90f543d);
+        
+
+        marker_5bd4627e54a945bb84137a0cddc57a9f.bindPopup(popup_8c5eeb1c007b4b9aa936065053da7628)
+        ;
+
+        
+    
+    
+            var marker_d770660df2f74de9ad224e68fbd7625b = L.marker(
+                [-23.6144, -46.6347],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_991fcf40ffd6448ba4fc8c0c5fdea489 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3619fc2df1ae439ca008fae697d6874e = $(`<div id="html_3619fc2df1ae439ca008fae697d6874e" style="width: 100.0%; height: 100.0%;">Saude Acidentes:45</div>`)[0];
+            popup_991fcf40ffd6448ba4fc8c0c5fdea489.setContent(html_3619fc2df1ae439ca008fae697d6874e);
+        
+
+        marker_d770660df2f74de9ad224e68fbd7625b.bindPopup(popup_991fcf40ffd6448ba4fc8c0c5fdea489)
+        ;
+
+        
+    
+    
+            var marker_34e7ab4700af4bf48e4979e0345ba00f = L.marker(
+                [-23.4997, -46.6254],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_6ac4651c6bad4985bb3332b7b3b65292 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d91949699d140e19e59db06c0868dc0 = $(`<div id="html_2d91949699d140e19e59db06c0868dc0" style="width: 100.0%; height: 100.0%;">Santana Acidentes:52</div>`)[0];
+            popup_6ac4651c6bad4985bb3332b7b3b65292.setContent(html_2d91949699d140e19e59db06c0868dc0);
+        
+
+        marker_34e7ab4700af4bf48e4979e0345ba00f.bindPopup(popup_6ac4651c6bad4985bb3332b7b3b65292)
+        ;
+
+        
+    
+    
+            var marker_7c964e0d51544b79931b4836bd643f36 = L.marker(
+                [-23.5855, -46.531],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_2449b86f55524156809d8a46d5640575 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35bcac3483e54cee9d6a8f5ef0cb47c7 = $(`<div id="html_35bcac3483e54cee9d6a8f5ef0cb47c7" style="width: 100.0%; height: 100.0%;">Sapopemba Acidentes:51</div>`)[0];
+            popup_2449b86f55524156809d8a46d5640575.setContent(html_35bcac3483e54cee9d6a8f5ef0cb47c7);
+        
+
+        marker_7c964e0d51544b79931b4836bd643f36.bindPopup(popup_2449b86f55524156809d8a46d5640575)
+        ;
+
+        
+    
+    
+            var marker_3f6e3c9b131d4aeb93957c40c7685c76 = L.marker(
+                [-23.5183, -46.5874],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_5352e01780f84c6bb959c6da01f35641 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef8812e23a6a4a34883f5122bcdd087d = $(`<div id="html_ef8812e23a6a4a34883f5122bcdd087d" style="width: 100.0%; height: 100.0%;">Vila Maria Acidentes:87</div>`)[0];
+            popup_5352e01780f84c6bb959c6da01f35641.setContent(html_ef8812e23a6a4a34883f5122bcdd087d);
+        
+
+        marker_3f6e3c9b131d4aeb93957c40c7685c76.bindPopup(popup_5352e01780f84c6bb959c6da01f35641)
+        ;
+
+        
+    
+    
+            var marker_2d15380077404d89931c6246621e8266 = L.marker(
+                [-23.5357, -46.6729],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_dcc6fe9b334341b59bd6dd10450d1c99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3264f76c8bad454a8540224403ec26db = $(`<div id="html_3264f76c8bad454a8540224403ec26db" style="width: 100.0%; height: 100.0%;">Perdizes Acidentes:25</div>`)[0];
+            popup_dcc6fe9b334341b59bd6dd10450d1c99.setContent(html_3264f76c8bad454a8540224403ec26db);
+        
+
+        marker_2d15380077404d89931c6246621e8266.bindPopup(popup_dcc6fe9b334341b59bd6dd10450d1c99)
+        ;
+
+        
+    
+    
+            var marker_a5942a7d2ef24e0ebd508f7bb2818f4a = L.marker(
+                [-23.5088, -46.4945],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_33ec55b1ad1449e59be17710570ed671 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb7f23ed3ce54cd7b69181ea85a624b3 = $(`<div id="html_bb7f23ed3ce54cd7b69181ea85a624b3" style="width: 100.0%; height: 100.0%;">Ponte Rasa Acidentes:42</div>`)[0];
+            popup_33ec55b1ad1449e59be17710570ed671.setContent(html_bb7f23ed3ce54cd7b69181ea85a624b3);
+        
+
+        marker_a5942a7d2ef24e0ebd508f7bb2818f4a.bindPopup(popup_33ec55b1ad1449e59be17710570ed671)
+        ;
+
+        
+    
+    
+            var marker_53b3b18c6e854475b891935266d87a27 = L.marker(
+                [-23.5259, -46.6118],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_9e01d3b0080c40ed92c338b2b34983a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_895883af79d143e0abaa8319ddd493a2 = $(`<div id="html_895883af79d143e0abaa8319ddd493a2" style="width: 100.0%; height: 100.0%;">Pari Acidentes:33</div>`)[0];
+            popup_9e01d3b0080c40ed92c338b2b34983a3.setContent(html_895883af79d143e0abaa8319ddd493a2);
+        
+
+        marker_53b3b18c6e854475b891935266d87a27.bindPopup(popup_9e01d3b0080c40ed92c338b2b34983a3)
+        ;
+
+        
+    
+    
+            var marker_25dcb24e21e84d52984826289fdfa29c = L.marker(
+                [-23.695, -46.6381],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_76a178675dac489b9a4e5bcd447251fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ecba75ee78a468da430587fdbe4ec6e = $(`<div id="html_0ecba75ee78a468da430587fdbe4ec6e" style="width: 100.0%; height: 100.0%;">Pedreira Acidentes:14</div>`)[0];
+            popup_76a178675dac489b9a4e5bcd447251fc.setContent(html_0ecba75ee78a468da430587fdbe4ec6e);
+        
+
+        marker_25dcb24e21e84d52984826289fdfa29c.bindPopup(popup_76a178675dac489b9a4e5bcd447251fc)
+        ;
+
+        
+    
+    
+            var marker_e4bedcb9d5664e749a3b8c2bcb56a47a = L.marker(
+                [-23.5718, -46.6607],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_c019d4bef0d24a1e8abb9ea91d8828e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3337f6b4ebd34fb38237b03187c8c743 = $(`<div id="html_3337f6b4ebd34fb38237b03187c8c743" style="width: 100.0%; height: 100.0%;">Jardim Paulista Acidentes:67</div>`)[0];
+            popup_c019d4bef0d24a1e8abb9ea91d8828e9.setContent(html_3337f6b4ebd34fb38237b03187c8c743);
+        
+
+        marker_e4bedcb9d5664e749a3b8c2bcb56a47a.bindPopup(popup_c019d4bef0d24a1e8abb9ea91d8828e9)
+        ;
+
+        
+    
+    
+            var marker_6a662f26885d4a0bae7196194d602cde = L.marker(
+                [-23.603, -46.6256],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_38cc5ed694414b68ac4ba29789976673 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30346214f75e4c8389cd8aa443e18bd6 = $(`<div id="html_30346214f75e4c8389cd8aa443e18bd6" style="width: 100.0%; height: 100.0%;">Cursino Acidentes:31</div>`)[0];
+            popup_38cc5ed694414b68ac4ba29789976673.setContent(html_30346214f75e4c8389cd8aa443e18bd6);
+        
+
+        marker_6a662f26885d4a0bae7196194d602cde.bindPopup(popup_38cc5ed694414b68ac4ba29789976673)
+        ;
+
+        
+    
+    
+            var marker_8fb8795e5dae48279e14af3ec1aa04ef = L.marker(
+                [-23.634, -46.7339],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_1ea951429ce74bb0a57a16024809680d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1dbff435e73441e8bb68bbb63a44b1ac = $(`<div id="html_1dbff435e73441e8bb68bbb63a44b1ac" style="width: 100.0%; height: 100.0%;">Vila Andrade Acidentes:27</div>`)[0];
+            popup_1ea951429ce74bb0a57a16024809680d.setContent(html_1dbff435e73441e8bb68bbb63a44b1ac);
+        
+
+        marker_8fb8795e5dae48279e14af3ec1aa04ef.bindPopup(popup_1ea951429ce74bb0a57a16024809680d)
+        ;
+
+        
+    
+    
+            var marker_9d584f75b4ec47a4a934a77544890ee7 = L.marker(
+                [-23.5587, -46.6326],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_6aa5cf2ecbf741a7bd90141adeeb2bd9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b090a4195394f5a8df47603bfaeda9c = $(`<div id="html_4b090a4195394f5a8df47603bfaeda9c" style="width: 100.0%; height: 100.0%;">Liberdade Acidentes:37</div>`)[0];
+            popup_6aa5cf2ecbf741a7bd90141adeeb2bd9.setContent(html_4b090a4195394f5a8df47603bfaeda9c);
+        
+
+        marker_9d584f75b4ec47a4a934a77544890ee7.bindPopup(popup_6aa5cf2ecbf741a7bd90141adeeb2bd9)
+        ;
+
+        
+    
+    
+            var marker_c71970e9b83e4b539ba6b4cddd81f63e = L.marker(
+                [-23.6196, -46.6727],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_7e1ae22f8fea4b7c84252ac65f5e62c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00b02de81d1d40a2a1d2880e4f870de1 = $(`<div id="html_00b02de81d1d40a2a1d2880e4f870de1" style="width: 100.0%; height: 100.0%;">Campo Belo Acidentes:28</div>`)[0];
+            popup_7e1ae22f8fea4b7c84252ac65f5e62c5.setContent(html_00b02de81d1d40a2a1d2880e4f870de1);
+        
+
+        marker_c71970e9b83e4b539ba6b4cddd81f63e.bindPopup(popup_7e1ae22f8fea4b7c84252ac65f5e62c5)
+        ;
+
+        
+    
+    
+            var marker_9b568a2e2074433781c90a888a72a5a5 = L.marker(
+                [-23.636, -46.6454],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_21eb832aea224177b7ba7dc480e73b51 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bbf3a973528046118ad8c2a8518e4e18 = $(`<div id="html_bbf3a973528046118ad8c2a8518e4e18" style="width: 100.0%; height: 100.0%;">Jabaquara Acidentes:61</div>`)[0];
+            popup_21eb832aea224177b7ba7dc480e73b51.setContent(html_bbf3a973528046118ad8c2a8518e4e18);
+        
+
+        marker_9b568a2e2074433781c90a888a72a5a5.bindPopup(popup_21eb832aea224177b7ba7dc480e73b51)
+        ;
+
+        
+    
+    
+            var marker_be585bb68c944193b9df39469e2180a7 = L.marker(
+                [-23.5745, -46.4067],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_73f4818c8e944a7ea2cc96c19de5fc10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7eb776b59fcc4838bb51c4f6245cc5c1 = $(`<div id="html_7eb776b59fcc4838bb51c4f6245cc5c1" style="width: 100.0%; height: 100.0%;">Guaianases Acidentes:25</div>`)[0];
+            popup_73f4818c8e944a7ea2cc96c19de5fc10.setContent(html_7eb776b59fcc4838bb51c4f6245cc5c1);
+        
+
+        marker_be585bb68c944193b9df39469e2180a7.bindPopup(popup_73f4818c8e944a7ea2cc96c19de5fc10)
+        ;
+
+        
+    
+    
+            var marker_35fe4da84f9d49d986bb5da92590ef71 = L.marker(
+                [-23.4632, -46.7451],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_9fb2d654eda04993a089823f6c0520f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a835627049304dfcb1bbecfb98672254 = $(`<div id="html_a835627049304dfcb1bbecfb98672254" style="width: 100.0%; height: 100.0%;">Jaragua Acidentes:24</div>`)[0];
+            popup_9fb2d654eda04993a089823f6c0520f8.setContent(html_a835627049304dfcb1bbecfb98672254);
+        
+
+        marker_35fe4da84f9d49d986bb5da92590ef71.bindPopup(popup_9fb2d654eda04993a089823f6c0520f8)
+        ;
+
+        
+    
+    
+            var marker_4ccb8ff7e8b040c09b95ade588760ea5 = L.marker(
+                [-23.5476, -46.5905],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_42991f9f075c467dbad94bb68fdd8311 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_856d2243210c4595ae70db83d3b0ba41 = $(`<div id="html_856d2243210c4595ae70db83d3b0ba41" style="width: 100.0%; height: 100.0%;">Belem Acidentes:39</div>`)[0];
+            popup_42991f9f075c467dbad94bb68fdd8311.setContent(html_856d2243210c4595ae70db83d3b0ba41);
+        
+
+        marker_4ccb8ff7e8b040c09b95ade588760ea5.bindPopup(popup_42991f9f075c467dbad94bb68fdd8311)
+        ;
+
+        
+    
+    
+            var marker_d5cc8a626c8f403abb9338afbee9f774 = L.marker(
+                [-23.5058, -46.5275],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_7c2cf2f15e444faba8dc1c485305d66a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94c44d1958c54d77977e926fd14e9844 = $(`<div id="html_94c44d1958c54d77977e926fd14e9844" style="width: 100.0%; height: 100.0%;">Cangaiba Acidentes:50</div>`)[0];
+            popup_7c2cf2f15e444faba8dc1c485305d66a.setContent(html_94c44d1958c54d77977e926fd14e9844);
+        
+
+        marker_d5cc8a626c8f403abb9338afbee9f774.bindPopup(popup_7c2cf2f15e444faba8dc1c485305d66a)
+        ;
+
+        
+    
+    
+            var marker_84481362b82247b19eaa285ad44303d1 = L.marker(
+                [-23.5531, -46.581],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_23cdc926d31748bbba3d27204d737aff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a77feb1835a41068da032965611c1d8 = $(`<div id="html_1a77feb1835a41068da032965611c1d8" style="width: 100.0%; height: 100.0%;">agua Rasa Acidentes:37</div>`)[0];
+            popup_23cdc926d31748bbba3d27204d737aff.setContent(html_1a77feb1835a41068da032965611c1d8);
+        
+
+        marker_84481362b82247b19eaa285ad44303d1.bindPopup(popup_23cdc926d31748bbba3d27204d737aff)
+        ;
+
+        
+    
+    
+            var marker_973d2319ecec41feba56e76b22fad675 = L.marker(
+                [-23.4934, -46.4375],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_12672762db0f4d1c825dde959d40db48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81924c6e8b2a4522b67fb31c89edd17f = $(`<div id="html_81924c6e8b2a4522b67fb31c89edd17f" style="width: 100.0%; height: 100.0%;">Sao Miguel Acidentes:47</div>`)[0];
+            popup_12672762db0f4d1c825dde959d40db48.setContent(html_81924c6e8b2a4522b67fb31c89edd17f);
+        
+
+        marker_973d2319ecec41feba56e76b22fad675.bindPopup(popup_12672762db0f4d1c825dde959d40db48)
+        ;
+
+        
+    
+    
+            var marker_59307151fce84072abe0b3b401a8bb0c = L.marker(
+                [-23.5429, -46.7441],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_673d43af37484f2c950acbcdb8e39938 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5563a132b06451ab37090f5e61bce82 = $(`<div id="html_a5563a132b06451ab37090f5e61bce82" style="width: 100.0%; height: 100.0%;">Jaguare Acidentes:25</div>`)[0];
+            popup_673d43af37484f2c950acbcdb8e39938.setContent(html_a5563a132b06451ab37090f5e61bce82);
+        
+
+        marker_59307151fce84072abe0b3b401a8bb0c.bindPopup(popup_673d43af37484f2c950acbcdb8e39938)
+        ;
+
+        
+    
+    
+            var marker_32881ee3069748568d5608f42f2da0bf = L.marker(
+                [-23.5796, -46.5801],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_ea1cf8c5702d4300bfc8da2dc7224329 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce5daced0b874c80be2e17b9da1fe573 = $(`<div id="html_ce5daced0b874c80be2e17b9da1fe573" style="width: 100.0%; height: 100.0%;">Vila Prudente Acidentes:40</div>`)[0];
+            popup_ea1cf8c5702d4300bfc8da2dc7224329.setContent(html_ce5daced0b874c80be2e17b9da1fe573);
+        
+
+        marker_32881ee3069748568d5608f42f2da0bf.bindPopup(popup_ea1cf8c5702d4300bfc8da2dc7224329)
+        ;
+
+        
+    
+    
+            var marker_8ca3c90cb82144179076c342905ff345 = L.marker(
+                [-23.5325, -46.7334],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_78733dbde7724029ba498a4cdab115c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88977a758d7f40e69950f6e108e53e5a = $(`<div id="html_88977a758d7f40e69950f6e108e53e5a" style="width: 100.0%; height: 100.0%;">Vila Leopoldina Acidentes:30</div>`)[0];
+            popup_78733dbde7724029ba498a4cdab115c0.setContent(html_88977a758d7f40e69950f6e108e53e5a);
+        
+
+        marker_8ca3c90cb82144179076c342905ff345.bindPopup(popup_78733dbde7724029ba498a4cdab115c0)
+        ;
+
+        
+    
+    
+            var marker_1431e5e299514af3a266de59cf19f918 = L.marker(
+                [-23.7713, -46.6674],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_81e76e833e934f6a9e4935a1977c4b33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f29e5ff9c3bf41bf9a08e45cb6470dc3 = $(`<div id="html_f29e5ff9c3bf41bf9a08e45cb6470dc3" style="width: 100.0%; height: 100.0%;">Grajau Acidentes:53</div>`)[0];
+            popup_81e76e833e934f6a9e4935a1977c4b33.setContent(html_f29e5ff9c3bf41bf9a08e45cb6470dc3);
+        
+
+        marker_1431e5e299514af3a266de59cf19f918.bindPopup(popup_81e76e833e934f6a9e4935a1977c4b33)
+        ;
+
+        
+    
+    
+            var marker_f39e1b5b3afc4a449d14cfa3d64c0e9e = L.marker(
+                [-23.5681, -46.5404],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_336f830eb3db4abf94f33c6982b94b7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_793369b427864a00acdfc653e7c62190 = $(`<div id="html_793369b427864a00acdfc653e7c62190" style="width: 100.0%; height: 100.0%;">Vila Formosa Acidentes:22</div>`)[0];
+            popup_336f830eb3db4abf94f33c6982b94b7d.setContent(html_793369b427864a00acdfc653e7c62190);
+        
+
+        marker_f39e1b5b3afc4a449d14cfa3d64c0e9e.bindPopup(popup_336f830eb3db4abf94f33c6982b94b7d)
+        ;
+
+        
+    
+    
+            var marker_e00aa7edff3b4a3eb0ef5c4477ce54d3 = L.marker(
+                [-23.4738, -46.6109],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_fb28e6cd289a4a41a41ebea30c35bbe1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f398031991ca47a1a63d3f66dbdd11c5 = $(`<div id="html_f398031991ca47a1a63d3f66dbdd11c5" style="width: 100.0%; height: 100.0%;">Tucuruvi Acidentes:40</div>`)[0];
+            popup_fb28e6cd289a4a41a41ebea30c35bbe1.setContent(html_f398031991ca47a1a63d3f66dbdd11c5);
+        
+
+        marker_e00aa7edff3b4a3eb0ef5c4477ce54d3.bindPopup(popup_fb28e6cd289a4a41a41ebea30c35bbe1)
+        ;
+
+        
+    
+    
+            var marker_cfe1d4daa2f34f8781486fc37241ad4f = L.marker(
+                [-23.5432, -46.7505],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_ed868957f562456abba5ffcbd341b6b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7dbfa4a58ba480aae56dd2a570b1cd9 = $(`<div id="html_a7dbfa4a58ba480aae56dd2a570b1cd9" style="width: 100.0%; height: 100.0%;">Jaguare Acidentes:5</div>`)[0];
+            popup_ed868957f562456abba5ffcbd341b6b7.setContent(html_a7dbfa4a58ba480aae56dd2a570b1cd9);
+        
+
+        marker_cfe1d4daa2f34f8781486fc37241ad4f.bindPopup(popup_ed868957f562456abba5ffcbd341b6b7)
+        ;
+
+        
+    
+    
+            var marker_ba927d379cb6463fa418f4f6bead8bc8 = L.marker(
+                [-23.557, -46.4749],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_a96beec39501471590e6c324205d0be3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5b7301195d243b8bdce2d085a053bf5 = $(`<div id="html_e5b7301195d243b8bdce2d085a053bf5" style="width: 100.0%; height: 100.0%;">Cidade Lider Acidentes:22</div>`)[0];
+            popup_a96beec39501471590e6c324205d0be3.setContent(html_e5b7301195d243b8bdce2d085a053bf5);
+        
+
+        marker_ba927d379cb6463fa418f4f6bead8bc8.bindPopup(popup_a96beec39501471590e6c324205d0be3)
+        ;
+
+        
+    
+    
+            var marker_cc0fab91b336421aa20d7be5133d2805 = L.marker(
+                [-23.5927, -46.7662],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_f752eb8080bf4929b65d0f591a6a9fba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c781a0264b7426cb78ed1a434f904b7 = $(`<div id="html_9c781a0264b7426cb78ed1a434f904b7" style="width: 100.0%; height: 100.0%;">Raposo Tavares Acidentes:26</div>`)[0];
+            popup_f752eb8080bf4929b65d0f591a6a9fba.setContent(html_9c781a0264b7426cb78ed1a434f904b7);
+        
+
+        marker_cc0fab91b336421aa20d7be5133d2805.bindPopup(popup_f752eb8080bf4929b65d0f591a6a9fba)
+        ;
+
+        
+    
+    
+            var marker_6b14c4adce92458da7eea1b05a80f592 = L.marker(
+                [-23.551, -46.5327],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_539c592ee9b04095bb7f328990dfdb65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83d11e59c73643819e846f828ac1403c = $(`<div id="html_83d11e59c73643819e846f828ac1403c" style="width: 100.0%; height: 100.0%;">Carrao Acidentes:25</div>`)[0];
+            popup_539c592ee9b04095bb7f328990dfdb65.setContent(html_83d11e59c73643819e846f828ac1403c);
+        
+
+        marker_6b14c4adce92458da7eea1b05a80f592.bindPopup(popup_539c592ee9b04095bb7f328990dfdb65)
+        ;
+
+        
+    
+    
+            var marker_a2ea896314214824956e8e649245e026 = L.marker(
+                [-23.5846, -46.679],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_beb2aa4b4faa48218a2f71ffc3d17357 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6c6e6be7d214c808da00f47aef61d06 = $(`<div id="html_a6c6e6be7d214c808da00f47aef61d06" style="width: 100.0%; height: 100.0%;">Itaim Bibi Acidentes:78</div>`)[0];
+            popup_beb2aa4b4faa48218a2f71ffc3d17357.setContent(html_a6c6e6be7d214c808da00f47aef61d06);
+        
+
+        marker_a2ea896314214824956e8e649245e026.bindPopup(popup_beb2aa4b4faa48218a2f71ffc3d17357)
+        ;
+
+        
+    
+    
+            var marker_f83a2ea81dc94d7bbe3a5ad2145b64c7 = L.marker(
+                [-23.5647, -46.6202],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_6becd570857e4aa09b044e03a4bfa8ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05bf50e282b84a8baee9fdc907695c54 = $(`<div id="html_05bf50e282b84a8baee9fdc907695c54" style="width: 100.0%; height: 100.0%;">Cambuci Acidentes:17</div>`)[0];
+            popup_6becd570857e4aa09b044e03a4bfa8ef.setContent(html_05bf50e282b84a8baee9fdc907695c54);
+        
+
+        marker_f83a2ea81dc94d7bbe3a5ad2145b64c7.bindPopup(popup_6becd570857e4aa09b044e03a4bfa8ef)
+        ;
+
+        
+    
+    
+            var marker_a92ad783a82a449da95b42408c059b1c = L.marker(
+                [-23.54, -46.6143],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_75c0a824f61d4577bcbd6b070c6cc3a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10eefc0275b541f08ac0e0874522198a = $(`<div id="html_10eefc0275b541f08ac0e0874522198a" style="width: 100.0%; height: 100.0%;">Bras Acidentes:46</div>`)[0];
+            popup_75c0a824f61d4577bcbd6b070c6cc3a6.setContent(html_10eefc0275b541f08ac0e0874522198a);
+        
+
+        marker_a92ad783a82a449da95b42408c059b1c.bindPopup(popup_75c0a824f61d4577bcbd6b070c6cc3a6)
+        ;
+
+        
+    
+    
+            var marker_e1571cec211b4d75aafa42e95eef5a8d = L.marker(
+                [-23.6036, -46.4001],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_be6cbf1efb034782b38ae8db8599537f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6dd8d6f9ec65417bb8f236509e4c259a = $(`<div id="html_6dd8d6f9ec65417bb8f236509e4c259a" style="width: 100.0%; height: 100.0%;">Cidade Tiradentes Acidentes:26</div>`)[0];
+            popup_be6cbf1efb034782b38ae8db8599537f.setContent(html_6dd8d6f9ec65417bb8f236509e4c259a);
+        
+
+        marker_e1571cec211b4d75aafa42e95eef5a8d.bindPopup(popup_be6cbf1efb034782b38ae8db8599537f)
+        ;
+
+        
+    
+    
+            var marker_6d829d2e6643433db2add77752a2d77b = L.marker(
+                [-23.5573, -46.6005],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_8603b6381b1e4926ba7ca4a10b709f3f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a7d5cebfcee4a2b8976cb53d57386e9 = $(`<div id="html_8a7d5cebfcee4a2b8976cb53d57386e9" style="width: 100.0%; height: 100.0%;">Mooca Acidentes:42</div>`)[0];
+            popup_8603b6381b1e4926ba7ca4a10b709f3f.setContent(html_8a7d5cebfcee4a2b8976cb53d57386e9);
+        
+
+        marker_6d829d2e6643433db2add77752a2d77b.bindPopup(popup_8603b6381b1e4926ba7ca4a10b709f3f)
+        ;
+
+        
+    
+    
+            var marker_1d7784d9849745c7be7260f845a3791e = L.marker(
+                [-23.5126, -46.606],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_e40ea2cbef2147b3afbaa288be8213ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65d738e6a7054c6fb3c02e35ed5e747f = $(`<div id="html_65d738e6a7054c6fb3c02e35ed5e747f" style="width: 100.0%; height: 100.0%;">Vila Guilherme Acidentes:36</div>`)[0];
+            popup_e40ea2cbef2147b3afbaa288be8213ed.setContent(html_65d738e6a7054c6fb3c02e35ed5e747f);
+        
+
+        marker_1d7784d9849745c7be7260f845a3791e.bindPopup(popup_e40ea2cbef2147b3afbaa288be8213ed)
+        ;
+
+        
+    
+    
+            var marker_98594b7e6f1d4eb69bdd980ed6c72641 = L.marker(
+                [-23.537, -46.4529],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_0eda436740a846228d998dacf3388d35 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72414b07554a4ab7ad4994b938af3917 = $(`<div id="html_72414b07554a4ab7ad4994b938af3917" style="width: 100.0%; height: 100.0%;">Itaquera Acidentes:72</div>`)[0];
+            popup_0eda436740a846228d998dacf3388d35.setContent(html_72414b07554a4ab7ad4994b938af3917);
+        
+
+        marker_98594b7e6f1d4eb69bdd980ed6c72641.bindPopup(popup_0eda436740a846228d998dacf3388d35)
+        ;
+
+        
+    
+    
+            var marker_cefdf5800c7240b8a6b85ceb663317e9 = L.marker(
+                [-23.4691, -46.4033],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_767a20d59b694d82844e4b4eff27ccdb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06739833df6d4dc9a6af1b27c721a321 = $(`<div id="html_06739833df6d4dc9a6af1b27c721a321" style="width: 100.0%; height: 100.0%;">Itaim Paulista Acidentes:43</div>`)[0];
+            popup_767a20d59b694d82844e4b4eff27ccdb.setContent(html_06739833df6d4dc9a6af1b27c721a321);
+        
+
+        marker_cefdf5800c7240b8a6b85ceb663317e9.bindPopup(popup_767a20d59b694d82844e4b4eff27ccdb)
+        ;
+
+        
+    
+    
+            var marker_762dc38f1a2b479f997db1685765715f = L.marker(
+                [-23.4883, -46.5851],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_c52135b745084f7e85a1366205cd68fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9dad8d0c1b744310afc6c86f070d073f = $(`<div id="html_9dad8d0c1b744310afc6c86f070d073f" style="width: 100.0%; height: 100.0%;">Vila Medeiros Acidentes:77</div>`)[0];
+            popup_c52135b745084f7e85a1366205cd68fb.setContent(html_9dad8d0c1b744310afc6c86f070d073f);
+        
+
+        marker_762dc38f1a2b479f997db1685765715f.bindPopup(popup_c52135b745084f7e85a1366205cd68fb)
+        ;
+
+        
+    
+    
+            var marker_7299d0fd6d7249ab93744fdc6936498a = L.marker(
+                [-23.5077, -46.6718],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_4b8e6a7c0fb34a6d8c92c07135da8d8b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df425be24448484f9874aa4ef788f902 = $(`<div id="html_df425be24448484f9874aa4ef788f902" style="width: 100.0%; height: 100.0%;">Limao Acidentes:49</div>`)[0];
+            popup_4b8e6a7c0fb34a6d8c92c07135da8d8b.setContent(html_df425be24448484f9874aa4ef788f902);
+        
+
+        marker_7299d0fd6d7249ab93744fdc6936498a.bindPopup(popup_4b8e6a7c0fb34a6d8c92c07135da8d8b)
+        ;
+
+        
+    
+    
+            var marker_630b8239cd7c49249dd8f646a9368f8e = L.marker(
+                [-23.67, -46.7141],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_41d5c6e9c84549758a74c315d0a8f68b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6bfda433c3b04b35ab3c303a010be124 = $(`<div id="html_6bfda433c3b04b35ab3c303a010be124" style="width: 100.0%; height: 100.0%;">Socorro Acidentes:27</div>`)[0];
+            popup_41d5c6e9c84549758a74c315d0a8f68b.setContent(html_6bfda433c3b04b35ab3c303a010be124);
+        
+
+        marker_630b8239cd7c49249dd8f646a9368f8e.bindPopup(popup_41d5c6e9c84549758a74c315d0a8f68b)
+        ;
+
+        
+    
+    
+            var marker_55491c1669964b338781a8b8a10f95c5 = L.marker(
+                [-23.5233, -46.7108],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_5cf10352c2d44983bc99abe3203ccd4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be1b2a705916430cba869bf0b4787ef4 = $(`<div id="html_be1b2a705916430cba869bf0b4787ef4" style="width: 100.0%; height: 100.0%;">Lapa Acidentes:25</div>`)[0];
+            popup_5cf10352c2d44983bc99abe3203ccd4e.setContent(html_be1b2a705916430cba869bf0b4787ef4);
+        
+
+        marker_55491c1669964b338781a8b8a10f95c5.bindPopup(popup_5cf10352c2d44983bc99abe3203ccd4e)
+        ;
+
+        
+    
+    
+            var marker_09e340f8fe084326a074a28e667c6987 = L.marker(
+                [-23.463, -46.6248],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_910b9a2de5b14e08b51331f98d551813 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37761dcc03194d5dac316e79a396cf32 = $(`<div id="html_37761dcc03194d5dac316e79a396cf32" style="width: 100.0%; height: 100.0%;">Tremembe Acidentes:67</div>`)[0];
+            popup_910b9a2de5b14e08b51331f98d551813.setContent(html_37761dcc03194d5dac316e79a396cf32);
+        
+
+        marker_09e340f8fe084326a074a28e667c6987.bindPopup(popup_910b9a2de5b14e08b51331f98d551813)
+        ;
+
+        
+    
+    
+            var marker_a93a0ca88d0f43de95e1b2bdddb5951c = L.marker(
+                [-23.5279, -46.6572],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_9e4267946f14499eb178c8c443ee8f95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a92fb81cb574e44b5a2c19a07ef26c2 = $(`<div id="html_1a92fb81cb574e44b5a2c19a07ef26c2" style="width: 100.0%; height: 100.0%;">Barra Funda Acidentes:34</div>`)[0];
+            popup_9e4267946f14499eb178c8c443ee8f95.setContent(html_1a92fb81cb574e44b5a2c19a07ef26c2);
+        
+
+        marker_a93a0ca88d0f43de95e1b2bdddb5951c.bindPopup(popup_9e4267946f14499eb178c8c443ee8f95)
+        ;
+
+        
+    
+    
+            var marker_7234c01c0bd34fcbbd90c0bc6237df91 = L.marker(
+                [-23.5511, -46.6309],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_90db3b87db3e41e9bc7d7c72cc8dc8f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aaf2623697a944a29e9c7869e1420904 = $(`<div id="html_aaf2623697a944a29e9c7869e1420904" style="width: 100.0%; height: 100.0%;">Se Acidentes:42</div>`)[0];
+            popup_90db3b87db3e41e9bc7d7c72cc8dc8f4.setContent(html_aaf2623697a944a29e9c7869e1420904);
+        
+
+        marker_7234c01c0bd34fcbbd90c0bc6237df91.bindPopup(popup_90db3b87db3e41e9bc7d7c72cc8dc8f4)
+        ;
+
+        
+    
+    
+            var marker_362367937c284206ae54b7c100443374 = L.marker(
+                [-23.5652, -46.7555],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_98f26421ef5e43c3a2a83cc7656f502c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48d9b9158d814720917cf923e12cd74a = $(`<div id="html_48d9b9158d814720917cf923e12cd74a" style="width: 100.0%; height: 100.0%;">Rio Pequeno Acidentes:41</div>`)[0];
+            popup_98f26421ef5e43c3a2a83cc7656f502c.setContent(html_48d9b9158d814720917cf923e12cd74a);
+        
+
+        marker_362367937c284206ae54b7c100443374.bindPopup(popup_98f26421ef5e43c3a2a83cc7656f502c)
+        ;
+
+        
+    
+    
+            var marker_a0716dcdb32c40879cacc6fe9431b2f5 = L.marker(
+                [-23.5105, -46.6564],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_51feffc4507947d380484599b364c8d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_830faf7bf0574403a17dce3c6970e78e = $(`<div id="html_830faf7bf0574403a17dce3c6970e78e" style="width: 100.0%; height: 100.0%;">Casa Verde Acidentes:37</div>`)[0];
+            popup_51feffc4507947d380484599b364c8d8.setContent(html_830faf7bf0574403a17dce3c6970e78e);
+        
+
+        marker_a0716dcdb32c40879cacc6fe9431b2f5.bindPopup(popup_51feffc4507947d380484599b364c8d8)
+        ;
+
+        
+    
+    
+            var marker_ff70ab396d204e6ca4ca31c19428e7ee = L.marker(
+                [-23.5714, -46.4766],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_ca4142ffe35b4d4aae07fa43cb55ee96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6631c3c5431c4c05bc88f0de31b98369 = $(`<div id="html_6631c3c5431c4c05bc88f0de31b98369" style="width: 100.0%; height: 100.0%;">Parque do Carmo Acidentes:22</div>`)[0];
+            popup_ca4142ffe35b4d4aae07fa43cb55ee96.setContent(html_6631c3c5431c4c05bc88f0de31b98369);
+        
+
+        marker_ff70ab396d204e6ca4ca31c19428e7ee.bindPopup(popup_ca4142ffe35b4d4aae07fa43cb55ee96)
+        ;
+
+        
+    
+    
+            var marker_816edbe9f5864689a302c256d1ee1e2d = L.marker(
+                [-23.613732000000002, -46.5972],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_10983f3dabc440c69aa478a6e9185378 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eac36eb7705a4a68b3732c07893e25ef = $(`<div id="html_eac36eb7705a4a68b3732c07893e25ef" style="width: 100.0%; height: 100.0%;">Sacoma Acidentes:46</div>`)[0];
+            popup_10983f3dabc440c69aa478a6e9185378.setContent(html_eac36eb7705a4a68b3732c07893e25ef);
+        
+
+        marker_816edbe9f5864689a302c256d1ee1e2d.bindPopup(popup_10983f3dabc440c69aa478a6e9185378)
+        ;
+
+        
+    
+    
+            var marker_2805594cb27d41a691d50e9e43480961 = L.marker(
+                [-23.5247, -46.5443],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_c6bcc86b9ab340348ee4576f9e4ba80d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4c0acd84809442bae3cd5927e14f3f6 = $(`<div id="html_e4c0acd84809442bae3cd5927e14f3f6" style="width: 100.0%; height: 100.0%;">Penha Acidentes:52</div>`)[0];
+            popup_c6bcc86b9ab340348ee4576f9e4ba80d.setContent(html_e4c0acd84809442bae3cd5927e14f3f6);
+        
+
+        marker_2805594cb27d41a691d50e9e43480961.bindPopup(popup_c6bcc86b9ab340348ee4576f9e4ba80d)
+        ;
+
+        
+    
+    
+            var marker_c5a8b7e8fe1c4af2bea3bfac64a1ed3c = L.marker(
+                [-23.5517, -46.7117],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_27b086f77412430f979120af2df80275 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef8b9f2afd9f4a379ac600f384e77caf = $(`<div id="html_ef8b9f2afd9f4a379ac600f384e77caf" style="width: 100.0%; height: 100.0%;">Alto de Pinheiros Acidentes:31</div>`)[0];
+            popup_27b086f77412430f979120af2df80275.setContent(html_ef8b9f2afd9f4a379ac600f384e77caf);
+        
+
+        marker_c5a8b7e8fe1c4af2bea3bfac64a1ed3c.bindPopup(popup_27b086f77412430f979120af2df80275)
+        ;
+
+        
+    
+    
+            var marker_28392cd239df4e10a93d424f22766aa2 = L.marker(
+                [-23.6847, -46.6825],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_ccba71f8a1d24175b76270d5147d863a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b423f31db3bc4286a9c3fc0fb6840a83 = $(`<div id="html_b423f31db3bc4286a9c3fc0fb6840a83" style="width: 100.0%; height: 100.0%;">Campo Grande Acidentes:31</div>`)[0];
+            popup_ccba71f8a1d24175b76270d5147d863a.setContent(html_b423f31db3bc4286a9c3fc0fb6840a83);
+        
+
+        marker_28392cd239df4e10a93d424f22766aa2.bindPopup(popup_ccba71f8a1d24175b76270d5147d863a)
+        ;
+
+        
+    
+    
+            var marker_c69d5cbea1214bfda8ba1971db385a9e = L.marker(
+                [-23.7018, -46.7682],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_aab326bb9fd84cf39c61e549bff66ed1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57f9cf8c8503442bb759c14491fee389 = $(`<div id="html_57f9cf8c8503442bb759c14491fee389" style="width: 100.0%; height: 100.0%;">Jardim angela Acidentes:28</div>`)[0];
+            popup_aab326bb9fd84cf39c61e549bff66ed1.setContent(html_57f9cf8c8503442bb759c14491fee389);
+        
+
+        marker_c69d5cbea1214bfda8ba1971db385a9e.bindPopup(popup_aab326bb9fd84cf39c61e549bff66ed1)
+        ;
+
+        
+    
+    
+            var marker_d93ec66fa27d4ce6a1ad53c69c79628a = L.marker(
+                [-23.5387, -46.5262],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_2c9529b436a94b15bb2bc503d5b786fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06c1de4bac3c4990800b4c6e9bfbd193 = $(`<div id="html_06c1de4bac3c4990800b4c6e9bfbd193" style="width: 100.0%; height: 100.0%;">Vila Matilde Acidentes:27</div>`)[0];
+            popup_2c9529b436a94b15bb2bc503d5b786fd.setContent(html_06c1de4bac3c4990800b4c6e9bfbd193);
+        
+
+        marker_d93ec66fa27d4ce6a1ad53c69c79628a.bindPopup(popup_2c9529b436a94b15bb2bc503d5b786fd)
+        ;
+
+        
+    
+    
+            var marker_a0132244f2af40088b835eb848416b10 = L.marker(
+                [-23.6346, -46.7547],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_2b21435f4eff46aaae289e8b5672ac80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0de9f794546416c93a7d00cf78a151f = $(`<div id="html_a0de9f794546416c93a7d00cf78a151f" style="width: 100.0%; height: 100.0%;">Campo Limpo Acidentes:34</div>`)[0];
+            popup_2b21435f4eff46aaae289e8b5672ac80.setContent(html_a0de9f794546416c93a7d00cf78a151f);
+        
+
+        marker_a0132244f2af40088b835eb848416b10.bindPopup(popup_2b21435f4eff46aaae289e8b5672ac80)
+        ;
+
+        
+    
+    
+            var marker_7f49be7f1a294a2098fa4c2e56dc0608 = L.marker(
+                [-23.6515, -46.7329],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_de75a135ffee49599f5f7e4917976d92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48d6bb4d3ead43279a59e9c9eb100053 = $(`<div id="html_48d6bb4d3ead43279a59e9c9eb100053" style="width: 100.0%; height: 100.0%;">Jardim Sao Luis Acidentes:41</div>`)[0];
+            popup_de75a135ffee49599f5f7e4917976d92.setContent(html_48d6bb4d3ead43279a59e9c9eb100053);
+        
+
+        marker_7f49be7f1a294a2098fa4c2e56dc0608.bindPopup(popup_de75a135ffee49599f5f7e4917976d92)
+        ;
+
+        
+    
+    
+            var marker_2730c3c228914c6d827b12cbb5ef31c7 = L.marker(
+                [-23.8201, -46.7037],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_5b903d4fcba0474496aea095ec10a14d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb250e8d8734460e83c82df8a76a6d3a = $(`<div id="html_bb250e8d8734460e83c82df8a76a6d3a" style="width: 100.0%; height: 100.0%;">Parelheiros Acidentes:25</div>`)[0];
+            popup_5b903d4fcba0474496aea095ec10a14d.setContent(html_bb250e8d8734460e83c82df8a76a6d3a);
+        
+
+        marker_2730c3c228914c6d827b12cbb5ef31c7.bindPopup(popup_5b903d4fcba0474496aea095ec10a14d)
+        ;
+
+        
+    
+    
+            var marker_410a0b16ee0a4bef96bbfac9263a0565 = L.marker(
+                [-23.4897, -46.4677],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_052b8300394e472b8feeed9886359978 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2091998a07746ecbfe5464eed63120d = $(`<div id="html_f2091998a07746ecbfe5464eed63120d" style="width: 100.0%; height: 100.0%;">Ermelino Matarazzo Acidentes:42</div>`)[0];
+            popup_052b8300394e472b8feeed9886359978.setContent(html_f2091998a07746ecbfe5464eed63120d);
+        
+
+        marker_410a0b16ee0a4bef96bbfac9263a0565.bindPopup(popup_052b8300394e472b8feeed9886359978)
+        ;
+
+        
+    
+    
+            var marker_ac21dfac027a4635a41f0b256693db33 = L.marker(
+                [-23.7116, -46.7018],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_088753dc50574196b8ae15aab05ee3c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63c95bf3a7de4da990a6fc9a6a274d21 = $(`<div id="html_63c95bf3a7de4da990a6fc9a6a274d21" style="width: 100.0%; height: 100.0%;">Cidade Dutra Acidentes:58</div>`)[0];
+            popup_088753dc50574196b8ae15aab05ee3c0.setContent(html_63c95bf3a7de4da990a6fc9a6a274d21);
+        
+
+        marker_ac21dfac027a4635a41f0b256693db33.bindPopup(popup_088753dc50574196b8ae15aab05ee3c0)
+        ;
+
+        
+    
+    
+            var marker_182e5462a4084e9eb8a22c935a39afd3 = L.marker(
+                [-23.5949, -46.7316],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_15cfb33a68574a568deaa0e0e96b4954 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_811dcb6033c547129cd024f9661f580e = $(`<div id="html_811dcb6033c547129cd024f9661f580e" style="width: 100.0%; height: 100.0%;">Vila Sonia Acidentes:33</div>`)[0];
+            popup_15cfb33a68574a568deaa0e0e96b4954.setContent(html_811dcb6033c547129cd024f9661f580e);
+        
+
+        marker_182e5462a4084e9eb8a22c935a39afd3.bindPopup(popup_15cfb33a68574a568deaa0e0e96b4954)
+        ;
+
+        
+    
+    
+            var marker_9cbc3a9071b44c6e8410573762f530b4 = L.marker(
+                [-23.670187, -46.6572],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_d8499720de224a839cf323bcc196cc80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec420b3bdb874f8eb93fa99eb43b15cb = $(`<div id="html_ec420b3bdb874f8eb93fa99eb43b15cb" style="width: 100.0%; height: 100.0%;">Cidade Ademar Acidentes:47</div>`)[0];
+            popup_d8499720de224a839cf323bcc196cc80.setContent(html_ec420b3bdb874f8eb93fa99eb43b15cb);
+        
+
+        marker_9cbc3a9071b44c6e8410573762f530b4.bindPopup(popup_d8499720de224a839cf323bcc196cc80)
+        ;
+
+        
+    
+    
+            var marker_d39fd75f6b6445f19e2d0d76c0885324 = L.marker(
+                [-23.3996, -46.7506],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_3c16f2b92ab24bca8905e156fb840fbe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e6a0ed84a924c0b873a69cf77f10b3a = $(`<div id="html_1e6a0ed84a924c0b873a69cf77f10b3a" style="width: 100.0%; height: 100.0%;">Perus Acidentes:12</div>`)[0];
+            popup_3c16f2b92ab24bca8905e156fb840fbe.setContent(html_1e6a0ed84a924c0b873a69cf77f10b3a);
+        
+
+        marker_d39fd75f6b6445f19e2d0d76c0885324.bindPopup(popup_3c16f2b92ab24bca8905e156fb840fbe)
+        ;
+
+        
+    
+    
+            var marker_2003f90e57ab49fcb93353a8b6c70b00 = L.marker(
+                [-23.545, -46.4349],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_5e6d9472322e424ca10942291ba0aa20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a305d7993f24657837895fe21fc4062 = $(`<div id="html_8a305d7993f24657837895fe21fc4062" style="width: 100.0%; height: 100.0%;">Jose Bonifacio Acidentes:23</div>`)[0];
+            popup_5e6d9472322e424ca10942291ba0aa20.setContent(html_8a305d7993f24657837895fe21fc4062);
+        
+
+        marker_2003f90e57ab49fcb93353a8b6c70b00.bindPopup(popup_5e6d9472322e424ca10942291ba0aa20)
+        ;
+
+        
+    
+    
+            var marker_ea034a29dfd444918a35f3d9e2f821a8 = L.marker(
+                [-23.5034, -46.7434],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_bd150d53fc974c8d9affa158a5d20444 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4cd81d55134469991f764f71013ac57 = $(`<div id="html_b4cd81d55134469991f764f71013ac57" style="width: 100.0%; height: 100.0%;">Sao Domingos Acidentes:17</div>`)[0];
+            popup_bd150d53fc974c8d9affa158a5d20444.setContent(html_b4cd81d55134469991f764f71013ac57);
+        
+
+        marker_ea034a29dfd444918a35f3d9e2f821a8.bindPopup(popup_bd150d53fc974c8d9affa158a5d20444)
+        ;
+
+        
+    
+    
+            var marker_24db1919a6434a9aa9f736df69fd136b = L.marker(
+                [-23.5795, -46.5109],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_5c32717f41674f4db748a52f2b16b37c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0738ba6b6344cb28b7f4cb77324ed56 = $(`<div id="html_e0738ba6b6344cb28b7f4cb77324ed56" style="width: 100.0%; height: 100.0%;">Aricanduva Acidentes:20</div>`)[0];
+            popup_5c32717f41674f4db748a52f2b16b37c.setContent(html_e0738ba6b6344cb28b7f4cb77324ed56);
+        
+
+        marker_24db1919a6434a9aa9f736df69fd136b.bindPopup(popup_5c32717f41674f4db748a52f2b16b37c)
+        ;
+
+        
+    
+    
+            var marker_f3f080ddf49c49afa403d894494e11cc = L.marker(
+                [-23.8848, -46.738],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_25aaa2b566114b40bd8b05ff968eeef8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3773377dc1514dd39e0bd04b51564829 = $(`<div id="html_3773377dc1514dd39e0bd04b51564829" style="width: 100.0%; height: 100.0%;">Marsilac Acidentes:3</div>`)[0];
+            popup_25aaa2b566114b40bd8b05ff968eeef8.setContent(html_3773377dc1514dd39e0bd04b51564829);
+        
+
+        marker_f3f080ddf49c49afa403d894494e11cc.bindPopup(popup_25aaa2b566114b40bd8b05ff968eeef8)
+        ;
+
+        
+    
+    
+            var marker_9464d0a6359e4afbad08349da45bd896 = L.marker(
+                [-23.6174, -46.4169],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_1d0580bb481c49ecbf077037d4730158 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_187a1d79b11e4a42ab6d70a50d737281 = $(`<div id="html_187a1d79b11e4a42ab6d70a50d737281" style="width: 100.0%; height: 100.0%;">Iguatemi Acidentes:14</div>`)[0];
+            popup_1d0580bb481c49ecbf077037d4730158.setContent(html_187a1d79b11e4a42ab6d70a50d737281);
+        
+
+        marker_9464d0a6359e4afbad08349da45bd896.bindPopup(popup_1d0580bb481c49ecbf077037d4730158)
+        ;
+
+        
+    
+    
+            var marker_6b3ebea319e64adb8fc37a70a882dcb6 = L.marker(
+                [-23.5869, -46.5347],
+                {}
+            ).addTo(feature_group_6c8402cebacf47e7af6954b17cbff380);
+        
+    
+        var popup_d088fd114e164d36ab070078a1e635dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69f5b00a19074311b3bd500be1a10798 = $(`<div id="html_69f5b00a19074311b3bd500be1a10798" style="width: 100.0%; height: 100.0%;">Sao Lucas Acidentes:28</div>`)[0];
+            popup_d088fd114e164d36ab070078a1e635dc.setContent(html_69f5b00a19074311b3bd500be1a10798);
+        
+
+        marker_6b3ebea319e64adb8fc37a70a882dcb6.bindPopup(popup_d088fd114e164d36ab070078a1e635dc)
+        ;
+
+        
+    
+    
+            var feature_group_627bb7767c1e460b92a810fb2862ce1b = L.featureGroup(
+                {}
+            ).addTo(map_7477f69bbbcd4cdc9242a9479dcfd58e);
+        
+    
+            var heat_map_19453113bd824272b26d4b3da02a2791 = L.heatLayer(
+                [[-23.28558, -46.37348, 60.0], [-23.536260000000002, -46.57569, 41.0], [-23.480446, -46.420296, 69.0], [-23.5375, -46.6578, 58.0], [-23.4616, -46.6608, 61.0], [-23.602583, -46.671416, 52.0], [-23.48, -46.7411, 49.0], [-23.4386, -46.7934, 12.0], [-23.6002, -46.7164, 30.0], [-23.5574, -46.6453, 44.0], [-23.5247, -46.4272, 36.0], [-23.5472, -46.4701, 27.0], [-23.5018, -46.4517, 53.0], [-23.5854, -46.6379, 73.0], [-23.544, -46.6409, 82.0], [-23.5899, -46.6036, 48.0], [-23.5029, -46.6976, 56.0], [-23.5616, -46.6843, 101.0], [-23.5642, -46.7197, 64.0], [-23.6492, -46.6988, 46.0], [-23.6011, -46.4797, 30.0], [-23.508, -46.4163, 49.0], [-23.4698, -46.6889, 73.0], [-23.6685, -46.7694, 53.0], [-23.5501, -46.6513, 63.0], [-23.5235, -46.6382, 62.0], [-23.467, -46.5717, 73.0], [-23.6144, -46.6347, 45.0], [-23.4997, -46.6254, 52.0], [-23.5855, -46.531, 51.0], [-23.5183, -46.5874, 87.0], [-23.5357, -46.6729, 25.0], [-23.5088, -46.4945, 42.0], [-23.5259, -46.6118, 33.0], [-23.695, -46.6381, 14.0], [-23.5718, -46.6607, 67.0], [-23.603, -46.6256, 31.0], [-23.634, -46.7339, 27.0], [-23.5587, -46.6326, 37.0], [-23.6196, -46.6727, 28.0], [-23.636, -46.6454, 61.0], [-23.5745, -46.4067, 25.0], [-23.4632, -46.7451, 24.0], [-23.5476, -46.5905, 39.0], [-23.5058, -46.5275, 50.0], [-23.5531, -46.581, 37.0], [-23.4934, -46.4375, 47.0], [-23.5429, -46.7441, 25.0], [-23.5796, -46.5801, 40.0], [-23.5325, -46.7334, 30.0], [-23.7713, -46.6674, 53.0], [-23.5681, -46.5404, 22.0], [-23.4738, -46.6109, 40.0], [-23.5432, -46.7505, 5.0], [-23.557, -46.4749, 22.0], [-23.5927, -46.7662, 26.0], [-23.551, -46.5327, 25.0], [-23.5846, -46.679, 78.0], [-23.5647, -46.6202, 17.0], [-23.54, -46.6143, 46.0], [-23.6036, -46.4001, 26.0], [-23.5573, -46.6005, 42.0], [-23.5126, -46.606, 36.0], [-23.537, -46.4529, 72.0], [-23.4691, -46.4033, 43.0], [-23.4883, -46.5851, 77.0], [-23.5077, -46.6718, 49.0], [-23.67, -46.7141, 27.0], [-23.5233, -46.7108, 25.0], [-23.463, -46.6248, 67.0], [-23.5279, -46.6572, 34.0], [-23.5511, -46.6309, 42.0], [-23.5652, -46.7555, 41.0], [-23.5105, -46.6564, 37.0], [-23.5714, -46.4766, 22.0], [-23.613732000000002, -46.5972, 46.0], [-23.5247, -46.5443, 52.0], [-23.5517, -46.7117, 31.0], [-23.6847, -46.6825, 31.0], [-23.7018, -46.7682, 28.0], [-23.5387, -46.5262, 27.0], [-23.6346, -46.7547, 34.0], [-23.6515, -46.7329, 41.0], [-23.8201, -46.7037, 25.0], [-23.4897, -46.4677, 42.0], [-23.7116, -46.7018, 58.0], [-23.5949, -46.7316, 33.0], [-23.670187, -46.6572, 47.0], [-23.3996, -46.7506, 12.0], [-23.545, -46.4349, 23.0], [-23.5034, -46.7434, 17.0], [-23.5795, -46.5109, 20.0], [-23.8848, -46.738, 3.0], [-23.6174, -46.4169, 14.0], [-23.5869, -46.5347, 28.0]],
+                {"blur": 15, "max": 1.0, "maxZoom": 18, "minOpacity": 0.5, "radius": 25}
+            ).addTo(feature_group_627bb7767c1e460b92a810fb2862ce1b);
+        
+    
+            var layer_control_f5485cf3197847b6b431af1caa94f891 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_3564e1aec4354ef8925bb9b14c6efd64,
+                },
+                overlays :  {
+                    "Marcadores" : feature_group_6c8402cebacf47e7af6954b17cbff380,
+                    "HeatMap" : feature_group_627bb7767c1e460b92a810fb2862ce1b,
+                },
+            };
+            L.control.layers(
+                layer_control_f5485cf3197847b6b431af1caa94f891.base_layers,
+                layer_control_f5485cf3197847b6b431af1caa94f891.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_7477f69bbbcd4cdc9242a9479dcfd58e);
+        
+</script>
